@@ -27,22 +27,7 @@ run `GOUMSE.COM`
 run `C:\BORLANDC\BIN\BC`
 
 set linker libraries as below:
-![alt tag](./linker-libraries.png)
+
+![linker-libraries](linker-libraries.jpg)
 
 #### Sample Execution
-```text
-Input Data:10
-Input Data:50
-Input Data:60
-Input Data:70
-Input Data:-1
-Inorder Sweep: 10 50 60 70 
-Heigth Of Tree is :3
-Press any key to see graph of Tree...
-Press any key to continue...
-
-Inorder sweep of inverted tree is :70 60 50 10 
-Heigth of inverted Tree is : 3
-Press any key to see graph of Tree...
-```
-
