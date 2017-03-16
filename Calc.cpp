@@ -202,7 +202,7 @@ void calculator::calculate(char &ch) {
             case '+':
             case '-':
             case '*':
-            case 'ِ':
+            case '\xF6':
                 num = atof(curnum);
                 if (flag != 1)
                     switch (sign) {
@@ -215,7 +215,7 @@ void calculator::calculate(char &ch) {
                         case '*':
                             temp *= num;
                             break;
-                        case 'ِ':
+                        case '\xF6':
                             if (num == 0) {
                                 err = 1;
                                 break;
@@ -375,14 +375,14 @@ void mouse::check(calculator &calobj) {
 
 
 void initialize(calculator &calobj) {
-    char *list[27] = {"®", "MR", "M-", "M+", "¯",
-                      "û", "7", "8", "9", "ِ",
-                      "ٌ", "4", "5", "6", "*",
+    char *list[27] = {"\xAE", "MR", "M-", "M+", "\xAF",
+                      "\xFB", "7", "8", "9", "\xF6",
+                      "\xF1", "4", "5", "6", "*",
                       "C", "1", "2", "3", "-",
                       "AC", ".", "0", "=", "+"};
 
     char taglist[27] = {'\0', 'R', 'D', 'I', '\0',
-                        'S', '7', '8', '9', 'ِ',
+                        'S', '7', '8', '9', '\xF6',
                         'N', '4', '5', '6', '*',
                         'C', '1', '2', '3', '-',
                         'A', '.', '0', '=', '+'};
