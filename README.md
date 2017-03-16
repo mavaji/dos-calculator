@@ -35,3 +35,4 @@ Open Calc.cpp.
 Run with CTRL+F9.
 
 #### Sample Execution
+![sample-execution](sample-execution.jpg)
