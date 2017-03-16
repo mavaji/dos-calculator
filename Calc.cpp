@@ -3,7 +3,7 @@
  * year: 2001
  */
 
-#include<iostream>
+#include<iostream.h>
 
 #include<graphics.h>
 #include<string.h>
