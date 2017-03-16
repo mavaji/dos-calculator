@@ -11,10 +11,10 @@ See: [How to Install DOS 6.22 Under VirtualBox](http://www.instructables.com/id/
 * Copy source files to MS-DOS guest. You should first create a virtual floppy disk and insert it into VirtualBox.
 See: [Using MagicISO to create floppy disk image](http://www.magiciso.com/tutorials/miso-createfloppyimage.htm)
 * Install Borland C++ 3.1 in MS-DOS.
-See:[Downloading Borland C++ 3.1](https://winworldpc.com/download/49068656-18DA-11E4-99E5-7054D21A8599)
+See: [Downloading Borland C++ 3.1](https://winworldpc.com/download/49068656-18DA-11E4-99E5-7054D21A8599)
 
 #### Make
-We assume this folder structure:
+We assume the following folder structure:
 ```text
 C:\BORLANDC
 C:\Calc.cpp
@@ -26,8 +26,12 @@ run `GOUMSE.COM`
 
 run `C:\BORLANDC\BIN\BC`
 
-set linker libraries as below:
+Set `Linker Libraries` as below:
 
 ![linker-libraries](linker-libraries.jpg)
+
+Open Calc.cpp.
+
+Run with CTRL+F9.
 
 #### Sample Execution
